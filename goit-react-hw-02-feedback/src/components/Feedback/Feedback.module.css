@@ -1,0 +1,18 @@
+.button {
+  margin-right: 10px;
+  background-color: grey;
+  border: 1 solid black;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.8),
+    inset rgba(78, 15, 78, 0.3) -5px -5px 8px 5px,
+    inset rgba(228, 143, 216, 0.5) 5px 5px 8px 5px,
+    1px 1px 1px rgba(151, 13, 140, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: blueviolet;
+}
